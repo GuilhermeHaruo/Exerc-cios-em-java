@@ -1,34 +1,35 @@
-☕ Java Fundamentos
-Exercícios focados no domínio da linguagem Java e suas APIs principais.
+# ☕ Java Mastery: Da Lógica à Arquitetura
 
-01-condicionais-simples (atv1): Prática de estruturas if/else e entrada de dados com Scanner.
+Este repositório documenta minha evolução técnica na linguagem Java, apresentando uma trilha de aprendizado que parte de algoritmos fundamentais até a manipulação de estruturas de dados complexas e tratamento de erros avançado. O objetivo final é consolidar a base necessária para o desenvolvimento de sistemas utilizando o padrão **MVC (Model-View-Controller)**.
 
-02-operadores-logicos (atv2): Implementação de lógica booleana complexa (&&, ||, !) para regras de negócio.
+---
 
-03-excecoes-e-arrays (atv3): Manipulação de vetores e introdução ao tratamento de erros com try-catch.
+## 🛠️ Tecnologias e Conceitos
+* **Linguagem:** Java 17+
+* **Paradigma:** Orientação a Objetos (POO)
+* **Arquitetura:** Estruturas preparadas para desacoplamento em camadas.
 
-04-excecoes-customizadas (atv4): Criação de exceções próprias e uso de throws para um código mais robusto.
+---
 
-05-collections-listas (atv5): Manipulação dinâmica de dados com ArrayList e utilitários de ordenação.
+## 📂 Trilhas de Aprendizado
 
-06-estruturas-set-objetos (atv6): Uso de HashSet, TreeSet e implementação de equals, hashCode e Comparable em objetos personalizados.
+Abaixo, os módulos organizados por nível de complexidade:
 
-07-estruturas-map (atv7): Armazenamento de pares chave-valor utilizando HashMap, TreeMap e LinkedHashMap.
+### 🔵 Nível 1: Fundamentos e Lógica
+* **01. Condicionais Simples (`atv1`):** Prática intensiva de estruturas de decisão (`if/else`) e interações básicas com o usuário via console.
+* **02. Operadores Lógicos (`atv2`):** Implementação de lógica booleana avançada (`&&`, `||`, `!`) para validação de regras de negócio complexas.
 
-🛠️ Tecnologias e Conceitos Aplicados
-Linguagens: Java 17+.
+### 🟡 Nível 2: Resiliência e Estruturas Lineares
+* **03. Arrays & Exceções (`atv3`):** Gestão de vetores estáticos e introdução ao tratamento de erros para evitar interrupções no fluxo do programa.
+* **04. Exceções Customizadas (`atv4`):** Criação de classes de erro personalizadas (`extends Exception`) para maior controle semântico do software.
 
-Estruturas de Dados: Arrays, Listas Dinâmicas, Conjuntos (Set) e Mapas (Dicionários).
+### 🔴 Nível 3: Collections Framework (Avançado)
+* **05. Listas Dinâmicas (`atv5`):** Manipulação de `ArrayList`, incluindo ordenação (`Collections.sort`), buscas e embaralhamento.
+* **06. Estruturas Set (`atv6`):** Garantia de unicidade de dados com `HashSet` e `TreeSet`, utilizando contratos de `hashCode`, `equals` e `Comparable`.
+* **07. Estruturas Map (`atv7`):** Implementação de dicionários (Chave-Valor) para buscas rápidas e mapeamento de dados ordenados.
 
-POO: Encapsulamento, construtores e modelagem de classes (ex: Produto, Compromisso).
+---
 
-Tratamento de Erros: Gestão de exceções para garantir a resiliência do software.
+## 🏗️ Preparação para o MVC
 
-🏗️ Próximos Passos: Rumo ao MVC
-A próxima fase deste repositório consiste em aplicar todo este conhecimento em projetos estruturados:
-
-Model: Utilizar as classes de objetos e Collections para gerenciar dados.
-
-Controller: Implementar a lógica de negócio e validações utilizando os operadores lógicos e exceções praticados.
-
-View: Criar interfaces de interação com o usuário.
+O conhecimento
