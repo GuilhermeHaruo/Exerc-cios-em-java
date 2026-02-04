@@ -32,4 +32,8 @@ Abaixo, os módulos organizados por nível de complexidade:
 
 ## 🏗️ Preparação para o MVC
 
-O conhecimento
+O conhecimento consolidado aqui reflete a divisão de responsabilidades exigida pelo mercado:
+
+1.  **Model:** Representado pela criação de classes de domínio (como `Produto` e `Compromisso`) com atributos privados e regras de identidade.
+2.  **Controller:** Lógica de processamento presente nos métodos de validação e na manipulação de coleções.
+3.  **View:** Interação direta com o usuário final através da classe `Scanner`.
